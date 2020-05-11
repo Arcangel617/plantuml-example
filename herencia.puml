@@ -1,0 +1,8 @@
+@startuml herencia
+Instrumento <|-- Guitarra
+Instrumento <|-- Bateria
+Instrumento <|-- Bajo
+
+Instrumento : tocar()
+Instrumento : precio_total()
+@enduml
